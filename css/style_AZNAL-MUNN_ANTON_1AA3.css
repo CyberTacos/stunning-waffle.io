@@ -1,0 +1,154 @@
+/*      IMPORTS     */
+@import url('./reset.css');
+
+/*      FONTS       */
+@font-face {
+    font-family: 'blackout';
+    src: url('./fonts/blackout_midnight-webfont.eot');
+    src: url('./fonts/blackout_midnight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/blackout_midnight-webfont.woff') format('woff'),
+        url('./fonts/blackout_midnight-webfont.ttf') format('truetype'),
+        url('./fonts/blackout_midnight-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'LindenHill';
+    src: url('./fonts/LindenHill-webfont.eot');
+    src: url('./fonts/LindenHill-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LindenHill-webfont.woff') format('woff'),
+        url('./fonts/LindenHill-webfont.ttf') format('truetype'),
+        url('./fonts/LindenHill-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'resistanceregular';
+    src: url('./fonts/resistance_generale-webfont.eot');
+    src: url('./fonts/resistance_generale-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/resistance_generale-webfont.woff2') format('woff2'),
+        url('./fonts/resistance_generale-webfont.woff') format('woff'),
+        url('./fonts/resistance_generale-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trickster_Regular';
+    src: url('./fonts/Trickster-Regular.eot');
+    src: url('./fonts/Trickster-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Trickster-Regular.woff') format('woff'),
+        url('./fonts/Trickster-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mourier_Regular';
+    src: url('./fonts/Mourier-Regular.eot');
+    src: url('./fonts/Mourier-Regular.eot?iefix') format('embedded-opentype'),
+        url('./fonts/Mourier-Regular.woff') format('woff'),
+        url('./fonts/Mourier-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Ouroboros_Regular';
+    src: url('./fonts/Ouroboros-Regular.eot');
+    src: url('./fonts/Ouroboros-Regular.eot?iefix') format('embedded-opentype'),
+        url('./fonts/Ouroboros-Regular.woff') format('woff'),
+        url('./fonts/Ouroboros-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LeMurmure_Regular';
+    src: url('./fonts/LeMurmure-Regular.eot');
+    src: url('./fonts/LeMurmure-Regular.eot?iefix') format('embedded-opentype'),
+        url('./fonts/LeMurmure-Regular.woff') format('woff'),
+        url('./fonts/LeMurmure-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Basteleur_Bold';
+    src: url('./fonts/Basteleur-Bold.woff') format('woff');
+    src: url('./fonts/Basteleur-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Basteleur_Moonlight';
+    src: url('./fonts/Basteleur-Moonlight.woff') format('woff');
+    src: url('./fonts/Basteleur-Moonlight.woff2') format('woff2');
+}
+
+/*      VARIABLES       */
+:root {
+    --color-bg: null;
+    --color-text: null;
+    --color-scroll-bg: null;
+    --color-scroll-thumb: silver;
+    --color-scroll-thumb-hover: black;
+    --font-title: null;
+    --font-text: null;
+}
+
+
+/*      SCROLLING          */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--color-scroll-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-text);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text);
+}
+
+
+/*      TAGS        */
+body {
+    background-color: var(--color-bg);
+}
+
+body>div {
+    width: 80%;
+    height: 102vh;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--color-text);
+    text-align: center;
+    font-size: 14vw;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    font-family: var(--font-title);
+    user-select: none;
+}
+
+p {
+    font-size: 2.5vw;
+    font-family: var(--font-text);
+    color: var(--color-text);
+    user-select: none;
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--color-bg);
+}
+
+figure {
+    width: 100%;
+    padding-bottom: 8vh;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
