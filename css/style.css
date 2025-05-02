@@ -98,10 +98,11 @@
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.5vw;
   color: #000000;
   display: block;
   transition: 0.3s;
+  font-family:"Trickster_Regular" ;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -133,10 +134,39 @@ div h1 {
     margin-bottom: 4vh;
 }
 
+div h2 {
+  font-family: "LindenHill";
+  font-size: 6vh;
+  margin-bottom: 2.5vh;
+  margin-top: 2.5vh;
+}
+
+div h3 {
+  font-family: "LindenHill";
+  font-size: 4.5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
 div p {
     font-family: "LindenHill";
+    font-size: 3vh;
 }
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  height: 50%;
+  width: 50%;
+}
+span {
+font-family:"blackout" ;
+margin-left: 0.5vw;
+  
+}
+/* On smaller screens, where├╴ height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {
     padding-top: 15px;
