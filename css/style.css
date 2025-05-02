@@ -3,78 +3,145 @@
 
 /*      FONTS       */
 @font-face {
-    font-family: 'blackout';
-    src: url('./fonts/blackout_midnight-webfont.eot');
-    src: url('./fonts/blackout_midnight-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/blackout_midnight-webfont.woff') format('woff'),
-        url('./fonts/blackout_midnight-webfont.ttf') format('truetype'),
-        url('./fonts/blackout_midnight-webfont.svg#webfont') format('svg');
+  font-family: "blackout";
+  src: url("./fonts/blackout_midnight-webfont.eot");
+  src: url("./fonts/blackout_midnight-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/blackout_midnight-webfont.woff") format("woff"),
+    url("./fonts/blackout_midnight-webfont.ttf") format("truetype"),
+    url("./fonts/blackout_midnight-webfont.svg#webfont") format("svg");
 }
 
 @font-face {
-    font-family: 'LindenHill';
-    src: url('./fonts/LindenHill-webfont.eot');
-    src: url('./fonts/LindenHill-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/LindenHill-webfont.woff') format('woff'),
-        url('./fonts/LindenHill-webfont.ttf') format('truetype'),
-        url('./fonts/LindenHill-webfont.svg#webfont') format('svg');
+  font-family: "LindenHill";
+  src: url("./fonts/LindenHill-webfont.eot");
+  src: url("./fonts/LindenHill-webfont.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/LindenHill-webfont.woff") format("woff"),
+    url("./fonts/LindenHill-webfont.ttf") format("truetype"),
+    url("./fonts/LindenHill-webfont.svg#webfont") format("svg");
 }
 
 @font-face {
-    font-family: 'resistanceregular';
-    src: url('./fonts/resistance_generale-webfont.eot');
-    src: url('./fonts/resistance_generale-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/resistance_generale-webfont.woff2') format('woff2'),
-        url('./fonts/resistance_generale-webfont.woff') format('woff'),
-        url('./fonts/resistance_generale-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "resistanceregular";
+  src: url("./fonts/resistance_generale-webfont.eot");
+  src: url("./fonts/resistance_generale-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/resistance_generale-webfont.woff2") format("woff2"),
+    url("./fonts/resistance_generale-webfont.woff") format("woff"),
+    url("./fonts/resistance_generale-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Trickster_Regular';
-    src: url('./fonts/Trickster-Regular.eot');
-    src: url('./fonts/Trickster-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Trickster-Regular.woff') format('woff'),
-        url('./fonts/Trickster-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Trickster_Regular";
+  src: url("./fonts/Trickster-Regular.eot");
+  src: url("./fonts/Trickster-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Trickster-Regular.woff") format("woff"),
+    url("./fonts/Trickster-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Mourier_Regular';
-    src: url('./fonts/Mourier-Regular.eot');
-    src: url('./fonts/Mourier-Regular.eot?iefix') format('embedded-opentype'),
-        url('./fonts/Mourier-Regular.woff') format('woff'),
-        url('./fonts/Mourier-Regular.woff2') format('woff2');
+  font-family: "Mourier_Regular";
+  src: url("./fonts/Mourier-Regular.eot");
+  src: url("./fonts/Mourier-Regular.eot?iefix") format("embedded-opentype"),
+    url("./fonts/Mourier-Regular.woff") format("woff"),
+    url("./fonts/Mourier-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Ouroboros_Regular';
-    src: url('./fonts/Ouroboros-Regular.eot');
-    src: url('./fonts/Ouroboros-Regular.eot?iefix') format('embedded-opentype'),
-        url('./fonts/Ouroboros-Regular.woff') format('woff'),
-        url('./fonts/Ouroboros-Regular.woff2') format('woff2');
+  font-family: "Ouroboros_Regular";
+  src: url("./fonts/Ouroboros-Regular.eot");
+  src: url("./fonts/Ouroboros-Regular.eot?iefix") format("embedded-opentype"),
+    url("./fonts/Ouroboros-Regular.woff") format("woff"),
+    url("./fonts/Ouroboros-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'LeMurmure_Regular';
-    src: url('./fonts/LeMurmure-Regular.eot');
-    src: url('./fonts/LeMurmure-Regular.eot?iefix') format('embedded-opentype'),
-        url('./fonts/LeMurmure-Regular.woff') format('woff'),
-        url('./fonts/LeMurmure-Regular.woff2') format('woff2');
+  font-family: "LeMurmure_Regular";
+  src: url("./fonts/LeMurmure-Regular.eot");
+  src: url("./fonts/LeMurmure-Regular.eot?iefix") format("embedded-opentype"),
+    url("./fonts/LeMurmure-Regular.woff") format("woff"),
+    url("./fonts/LeMurmure-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Basteleur_Bold';
-    src: url('./fonts/Basteleur-Bold.woff') format('woff');
-    src: url('./fonts/Basteleur-Bold.woff2') format('woff2');
+  font-family: "Basteleur_Bold";
+  src: url("./fonts/Basteleur-Bold.woff") format("woff");
+  src: url("./fonts/Basteleur-Bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Basteleur_Moonlight';
-    src: url('./fonts/Basteleur-Moonlight.woff') format('woff');
-    src: url('./fonts/Basteleur-Moonlight.woff2') format('woff2');
+  font-family: "Basteleur_Moonlight";
+  src: url("./fonts/Basteleur-Moonlight.woff") format("woff");
+  src: url("./fonts/Basteleur-Moonlight.woff2") format("woff2");
 }
 
 /*      TAGS        */
+/* The side navigation menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+  text-align: left;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 2.5vw;
+}
+
+div h1 {
+    font-family: "resistanceregular";
+    text-align: center;
+    font-size: 7vh;
+    margin-bottom: 3.5vh;
+}
+
+div p {
+    font-family: "LindenHill";
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
